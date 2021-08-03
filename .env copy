@@ -1,0 +1,10 @@
+ACCOUNT_SID=ACXXXX
+AUTH_TOKEN=
+
+# Variables for function "pgp"
+# ---   All variables prefixed with PRIVATE will not be made available
+#       in the Connector config page
+#
+PRIVATE_url=https://api.stripe.com/v1/tokens
+STRIPE_API_KEY=sk_test_yyyyyy
+custom_param=
