@@ -16,7 +16,7 @@ exports.handler = async function (context, event, callback) {
     }
    */
 
-  console.log(`Got tokenise request to Mock PGP: ${event}`);
+  console.log(`Got tokenise request to Mock PGP: ${JSON.stringify(event, null, 4)}`);
 
   // Respond with a dummy card transactions and no errors
   let token_response = {
@@ -25,7 +25,7 @@ exports.handler = async function (context, event, callback) {
     "error_message": null
   };
 
-  console.log(`Mock Token for card: ${token_response}`);
+  console.log(`Mock Token for card: ${JSON.stringify(token_response, null, 4)}`);
 
   callback(null, token_response);
 };

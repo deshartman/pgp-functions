@@ -15,7 +15,7 @@ exports.handler = async function (context, event, callback) {
       "postal_code": null
     }
    */
-  console.log(`Got charge request to Mock PGP: ${event}`);
+  console.log(`Got charge request to Mock PGP: ${JSON.stringify(event, null, 4)}`);
 
   // Respond with a dummy card transactions and no errors
   let payment_response = {

@@ -40,8 +40,8 @@ https://pgp-functions-xxxx-dev.twil.io/pgp-mock
 
 Call the number and you should hear a voice instructing you to enter the following mock data:
 
-Card number: 4444 3333 2222 1111
-Exp Date: 12 25
-Security: 123
+- Card number: 4444 3333 2222 1111
+- Exp Date: 12 25
+- Security: 123
 
-PAyment should succeed and the logs are available in Twilio functions to see the output of PGP.
+Payment should succeed and the logs are available in Twilio functions to see the output of PGP.
